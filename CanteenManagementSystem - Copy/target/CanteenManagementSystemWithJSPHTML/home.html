@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canteen Management System</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!--bootstrap links-->
+</head>
+<body>
+    <ul class="nav">
+        <li class="logo"><img src="./assets/log.png" alt="logo" width="90" height="90"></li>
+        <li class="logo"> Ojas Canteen Management System</li>
+        </li>
+
+        <li>
+            <a data-feather="users" class="tn" href="SignUp.html"> SignUp </a>
+        </li>
+
+        <li>
+            <a data-feather="list" class="tn" href="0_index.html"> SignIn </a>
+        </li>
+        <li>
+            <a data-feather="list" class="tn" href="aboutus.html"> AboutUs </a>
+        </li>
+     
+
+
+      </ul>
+
+
+
+      <!--bootstrap carousel-->
+      <div class="carousel">
+        <div class="carousel-inner">
+            <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+            <div class="carousel-item">
+                <img src="assets/image.jpg" width="100%" height="400">
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+                <img src="assets/biryani1.jpg" width="100%" height="400">
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+                <img src="assets/indian-food-curry-butter-chicken-palak-paneer-chiken-tikka-biryani-vegetable-curry-papad-dal-palak-sabji-jira-alu-rice-138549925.jpg" width="100%" height="400">
+            </div>
+            <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+            <label for="carousel-2" class="carousel-control next control-1">›</label>
+            <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+            <label for="carousel-3" class="carousel-control next control-2">›</label>
+            <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+            <label for="carousel-1" class="carousel-control next control-3">›</label>
+            <ol class="carousel-indicators">
+                <li>
+                    <label for="carousel-1" class="carousel-bullet">•</label>
+                </li>
+                <li>
+                    <label for="carousel-2" class="carousel-bullet">•</label>
+                </li>
+                <li>
+                    <label for="carousel-3" class="carousel-bullet">•</label>
+                </li>
+            </ol>
+        </div>
+    </div>
+
+
+      <!--cards started-->
+
+      <center><h1 class="PI">POPULAR ITEMS</h1></center>
+      <marquee behavior="" direction="left">  <h3 class="HM">Don't stare at food , order it now</h3> </marquee>
+      <div class="product-card" id="product-card"> 
+        <img src="assets/aa.jfif" 
+             class="product-card-thumbnail-image">
+
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+          </div>
+          
+        </div>
+        <div class="pagination"></div>
+      
+        <div class="product-details">
+          <div id="hide_on_hover">
+            <p class="book-title"> Vada with ground nut chutney </p>
+            <p class="author">From subbaiah gari hotel</p>
+            <span class="rating"> 4.5
+              <p class="fa fa-star"></p> 
+            </span>
+          </div>
+          <div id="show_on_hover">
+            <i class="material-icons heart">favorite</i>
+            <button class="btn add-to-card">Add To Card</button>
+          </div>
+          <div class="not_change_on_hover">
+            <div class="product-quality">
+              <div class="input-chip active">
+                <input type="radio">Like New
+              </div>
+              <div class="input-chip">
+                <input type="radio">Good
+              </div>
+              <div class="input-chip">
+                <input type="radio">Acceptable
+              </div>
+            </div>
+            <div class="price">
+              <span class="new-price"> ₹100 </span>
+            
+            </div>
+
+            
+            
+          </div>
+          
+        </div>
+        
+      </div>
+      
+      
+    
+      <!--cards ended-->
+
+      <!--second card started-->
+      <div class="product-card" id="product-card"> 
+        <img src="assets/bb.jpg" 
+             class="product-card-thumbnail-image" width="80px">
+
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+          </div>
+          
+        </div>
+        <div class="pagination"></div>
+      
+        <div class="product-details">
+          <div id="hide_on_hover">
+            <p class="book-title">Noodles</p>
+            <p class="author"> jinping's hotel </p>
+            <span class="rating"> 4.5
+              <p class="fa fa-star"></p> (124)
+            </span>
+          </div>
+          <div id="show_on_hover">
+            <i class="material-icons heart">favorite</i>
+            <button class="btn add-to-card">Add To Card</button>
+          </div>
+          <div class="not_change_on_hover">
+            <div class="product-quality">
+              <div class="input-chip active">
+                <input type="radio">Like New
+              </div>
+              <div class="input-chip">
+                <input type="radio">Good
+              </div>
+              <div class="input-chip">
+                <input type="radio">Acceptable
+              </div>
+            </div>
+            <div class="price">
+              <span class="new-price"> ₹140 </span>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--cards ended-->
+
+       <!--third card started-->
+       <div class="product-card" id="product-card"> 
+        <img src="assets/cc.webp" 
+             class="product-card-thumbnail-image">
+
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+          </div>
+          
+        </div>
+        <div class="pagination"></div>
+      
+        <div class="product-details">
+          <div id="hide_on_hover">
+            <p class="book-title">ANSI C</p>
+            <p class="author">Dennis Ritchie. Publisher: Prentice Hall</p>
+            <span class="rating"> 4.5
+              <p class="fa fa-star"></p> (124)
+            </span>
+          </div>
+          <div id="show_on_hover">
+            <i class="material-icons heart">favorite</i>
+            <button class="btn add-to-card">Add To Card</button>
+          </div>
+          <div class="not_change_on_hover">
+            <div class="product-quality">
+              <div class="input-chip active">
+                <input type="radio">Like New
+              </div>
+              <div class="input-chip">
+                <input type="radio">Good
+              </div>
+              <div class="input-chip">
+                <input type="radio">Acceptable
+              </div>
+            </div>
+            <div class="price">
+              <span class="new-price"> ₹210 </span>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--cards ended-->
+
+
+
+<!--footer  started-->
+
+
+
+<div class="footer">
+    <div class="inner-footer">
+  
+  <!--  for company name and description -->
+      <div class="footer-items">
+        <h1>Canteen Management System</h1>
+
+        <p>Get our services and stay healthy</p>
+      </div>
+  
+  <!--  for quick links  -->
+      <div class="footer-items">
+        <h3>Quick Links</h3>
+        <div class="border1"></div> <!--for the underline -->
+          <ul>
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>Search</li></a>
+            <a href="#"><li>Contact</li></a>
+            <a href="#"><li>About</li></a>
+          </ul>
+      </div>
+  
+  <!--  for some other links -->
+      <div class="footer-items">
+        <h3>Recipes</h3>
+        <div class="border1"></div>  <!--for the underline -->
+          <ul>
+            <a href="#"><li>Indian</li></a>
+            <a href="#"><li>Chinese</li></a>
+            <a href="#"><li>Mexican</li></a>
+            <a href="#"><li>Italian</li></a>
+          </ul>
+      </div>
+  
+  <!--  for contact us info -->
+      <div class="footer-items">
+        <h3>Contact us</h3>
+        <div class="border1"></div>
+          <ul>
+            <li><i class="fa fa-map-marker" aria-hidden="true"></i>ojas</li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i>123456789</li>
+            <li><i class="fa fa-envelope" aria-hidden="true"></i>ojas@gmail.com</li>
+          </ul> 
+        
+  <!--   for social links -->
+          <div class="social-media">
+            <a href="#"><i class="fab fa-instagram" class="fae"></i></a>
+            <a href="#"><i class="fab fa-facebook" class="fae"></i></a>
+            <a href="#"><i class="fab fa-google-plus-square" class="fae"></i></a>
+          </div> 
+      </div>
+    </div>
+    
+  <!--   Footer Bottom start  -->
+    <div class="footer-bottom">
+      Copyright &copy; Food and Burps 2020.
+    </div>
+  </div>
+    
+  <!--   Footer Bottom end -->
+    
+  <!--   FOOTER END -->
+
+
+
+      <!--footer end-->
+
+
+
+
+
+</body>
+</html>
